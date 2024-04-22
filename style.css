@@ -1,0 +1,428 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+}
+body{
+    overflow-x:hidden;
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    font-family: "Kanit", sans-serif;
+}
+.title{
+    font-size: 140px;
+   
+    margin: 50px 59px;
+    line-height: 140px;
+    letter-spacing: -5px;
+}
+.prt2-1{
+    height: 8vh;
+    width: 50%;
+    font-size: 30px;
+    position: absolute;
+    top: 360px;
+    left: 65px;
+}
+.prt2-2{
+    height: 8vh;
+    width: 40%;
+    font-size: 30px;
+    position: absolute;
+    right: 40px;
+    top: 360px;
+    text-align: end;
+}
+
+ .heroimg{
+    height: 685px;
+    width: 100%; 
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 110px;
+} 
+.content{
+    display: flex;
+    flex-direction: row;
+
+}
+#con1{
+    margin: 120px 0;
+    padding-right: 15px;
+    height: 550px;
+    width: 60%;
+    font-size: 85px;
+    padding-top: 40px;
+    padding-left: 40px;
+    border-right: 2px solid black;
+    line-height: 90px;
+}
+#con2{
+    margin-top: 120px;
+    height: 450px;
+    width: 300%;
+    font-size: 31px;
+    padding-top: 55px; 
+    padding-left: 60px;   
+}
+#logo{
+    padding-left: 60px;
+    padding-top: 30px;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+}
+#logo i{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+}
+
+.menu-bar{
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    .zero{
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        padding: 10px 20px;
+        margin-right: 10px;
+    }
+    .menu{
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        margin-right: 35px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+}
+
+
+
+
+.gnf-box{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 1900px;
+    border-top: 3px solid black;
+}
+.wht-box{
+    height: 500px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    font-size: 40px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.gnf-box .written-ftr-box{
+    height: 550px;
+    width: 60%;
+}
+.written-box1{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    border-bottom: 3px solid black;
+    .para1{
+        height: 240px;
+        width: 50%;
+        border-right: 3px solid black;
+        padding: 0 25px;
+    }
+    .para2{
+        height: 240px;
+        width: 50%;
+        padding: 0 25px;
+    }
+}
+
+.written-box2{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    border-bottom: 3px solid black;
+    .para1{
+        height: 240px;
+        width: 50%;
+        border-right: 3px solid black;
+        padding: 0 25px;
+    }
+    .para2{
+        height: 240px;
+        width: 50%;
+        padding: 0 25px;
+    }
+}
+ .written-ftr-box h4{
+    font-size: 50px;
+}
+.written-ftr-box p{
+    font-size: 25px;
+}
+.work{
+    height: 150px;
+    width: 100vw;
+    position: absolute;
+    bottom: -115rem;
+    font-size: 150px;
+    animation-name: box;
+    animation-duration: 6s;    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes box {
+    0%{
+        translate: 0%;
+    }
+    100%{
+        translate: calc(90vw - 10px);
+    }
+}
+.camera{
+    margin-top: 720px;
+    /* 1850px mtop use if found any space btw work animation and camera photo*/
+}
+.camera-img{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    object-fit: cover;
+    object-position: top;
+}
+.camera-text{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+}
+.camera-head{
+    width: 50vw;
+    height: 200px;
+    font-size: 150px; 
+    text-align: start;
+    padding-left: 80px;
+}
+.camera-paragraph{
+    width: 50vw;
+    height: 200px;
+}
+.camera-para{
+    font-size: 25px;
+    padding-top: 40px;
+}
+.camera-buttons{
+    padding-top: 50px;
+}
+.btn1{
+    margin-right: 5px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn2{
+    margin-right: 20px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+
+.noise{
+    margin-top: 20px;
+}
+.noise-img{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    object-fit: cover;
+    object-position: top;
+}
+.noise-text{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+}
+.noise-head{
+    width: 50vw;
+    height: 200px;
+    font-size: 150px; 
+    text-align: start;
+    padding-left: 80px;
+}
+.noise-paragraph{
+    width: 50vw;
+    height: 200px;
+}
+.noise-para{
+    font-size: 25px;
+    padding-top: 40px;
+}
+.noise-buttons{
+    padding-top: 50px;
+}
+.btn1{
+    margin-right: 5px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn2{
+    margin-right: 20px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+
+.robot{
+    margin-top: 20px;
+}
+.robot-img{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    object-fit: cover;
+    object-position: top;
+}
+.robot-text{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+}
+.robot-head{
+    width: 50vw;
+    height: 200px;
+    font-size: 150px; 
+    text-align: start;
+    padding-left: 80px;
+}
+.robot-paragraph{
+    width: 50vw;
+    height: 200px;
+}
+.robot-para{
+    font-size: 25px;
+    padding-top: 40px;
+}
+.robot-buttons{
+    padding-top: 50px;
+}
+.btn1{
+    margin-right: 5px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn2{
+    margin-right: 20px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.foot{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.878);
+    margin-top: 20px;
+    padding: 100px;
+    
+    
+    #connect-1{
+        height: 50px;
+        font-size: 35px;
+        text-align: center;
+        color: white;
+    }
+    #connect-2{
+        height: 140px;
+        font-size: 120px;
+        text-align: center;
+        color: white;
+    }
+    #connect-3{
+        height: 60px;
+        text-align: center;
+        padding-top: 
+        8px;
+        #btn-box{
+            background-color: white;
+            color: black;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}    
+
+
+.info-area{
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.pages ul :last-child{
+    color: black;
+    border-radius: 50px;
+    margin-left: -14px;
+    padding: 15px 20px;
+
+}
+
+.info-design ul li{
+    list-style: none;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.info-design ul li:nth-child(1){
+    color: gray;
+    padding-bottom: 10px;
+}
+.copyright{
+    height: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
